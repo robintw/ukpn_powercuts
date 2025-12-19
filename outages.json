@@ -2264,7 +2264,7 @@
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Message": "",
-    "MainMessage": "We are currently experiencing problems with the electricity supply in your area.  We are arranging to have engineers investigate the fault.  We are sorry we can't give you a time for the restoration of supply at present. Please accept our sincere apologies for any inconvenience this may cause.",
+    "MainMessage": "We are aware of an incident caused by Link Box Fault affecting the electricity supply in your area. Our engineers are dealing with this, but we are sorry we can't give you a time for the restoration of supply at present.  Please accept our sincere apologies for any inconvenience this may cause.",
     "PostcodeData": [],
     "Postcode": "",
     "Coordinates": null
@@ -4395,11 +4395,11 @@
       },
       {
         "Active": true,
-        "Date": "2025-12-19T13:25:09.143",
+        "Date": "2025-12-19T13:47:59.423",
         "Message": "<p>All power in the area should be back on. We\u2019re really sorry for any disruption this caused.</p>",
         "Name": "Power back on",
         "Operator": null,
-        "DisplayTime": "1:25 pm",
+        "DisplayTime": "1:47 pm",
         "StepType": 0
       }
     ],
@@ -4440,11 +4440,11 @@
     "IncidentCategory": "47",
     "IncidentTypeName": "Restored",
     "IncidentType": 2,
-    "IncidentPriority": 10,
+    "IncidentPriority": 500,
     "IncidentDno": 3,
     "StatusId": 5,
     "CreationDateTime": "2025-12-18T13:12:00",
-    "RestoredDateTime": "2025-12-19T13:25:09.143",
+    "RestoredDateTime": "2025-12-19T13:47:59.423",
     "EstimatedRestorationDate": "2025-12-19T04:30:00",
     "PlannedDate": null,
     "PlannedDayMonth": "",
@@ -4487,7 +4487,7 @@
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Message": "",
-    "MainMessage": "We are aware of an incident caused by LV UG Network Fault affecting the electricity supply in your area. Our engineers are dealing with this and we estimate that most supplies will be restored by 19-DEC-2025 04:30.  Please accept our sincere apologies for any inconvenience this may cause.",
+    "MainMessage": "We are currently experiencing problems with the electricity supply in your area.  Our engineers have attended the fault, and have made an emergency repair to restore power to as many premises as possible.  It is our intention to return to make a permanent repair as soon as we can.  I'm sorry, but we can't give you a time for this at present. Please accept our sincere apologies for any inconvenience this may cause.",
     "PostcodeData": [],
     "Postcode": "",
     "Coordinates": null
@@ -13234,8 +13234,6 @@
     ],
     "FullPostcodeData": [
       "TN395AX",
-      "TN339AY",
-      "TN339BY",
       "TN339AB",
       "TN339AD",
       "TN339AA",
@@ -13248,6 +13246,8 @@
       "TN339DB",
       "TN339AU",
       "TN339BX",
+      "TN339BY",
+      "TN339AY",
       "TN388EE",
       "TN388EG",
       "UK",
@@ -13282,7 +13282,7 @@
     "PlannedDate": null,
     "PlannedDayMonth": null,
     "ReceivedDate": "2025-12-19T03:50:10",
-    "NoCustomerAffected": 12,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 5,
     "Logs": [
@@ -13310,8 +13310,6 @@
     ],
     "PostCodesRestored": [
       "TN395AX",
-      "TN339AY",
-      "TN339BY",
       "TN339AB",
       "TN339AD",
       "TN339AA",
@@ -13324,6 +13322,8 @@
       "TN339DB",
       "TN339AU",
       "TN339BX",
+      "TN339BY",
+      "TN339AY",
       "TN388EE",
       "TN388EG",
       "UK",
@@ -13342,8 +13342,6 @@
     ],
     "PostCodesPlanned": [
       "TN395AX",
-      "TN339AY",
-      "TN339BY",
       "TN339AB",
       "TN339AD",
       "TN339AA",
@@ -13356,6 +13354,8 @@
       "TN339DB",
       "TN339AU",
       "TN339BX",
+      "TN339BY",
+      "TN339AY",
       "TN388EE",
       "TN388EG",
       "UK",
@@ -18790,7 +18790,7 @@
         "StepType": 0
       },
       {
-        "Active": true,
+        "Active": false,
         "Date": "2025-12-19T09:09:06",
         "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
         "Name": "Investigating & fixing",
@@ -18799,16 +18799,16 @@
         "StepType": 0
       },
       {
-        "Active": false,
-        "Date": null,
-        "Message": null,
+        "Active": true,
+        "Date": "2025-12-19T13:44:20.937",
+        "Message": "<p>All power in the area should be back on. We\u2019re really sorry for any disruption this caused.</p>",
         "Name": "Power back on",
         "Operator": null,
-        "DisplayTime": "",
+        "DisplayTime": "1:44 pm",
         "StepType": 0
       }
     ],
-    "PowerCutType": "Unplanned",
+    "PowerCutType": "Restored",
     "PostcodesRemaining": [
       "NW5 1"
     ],
@@ -18825,25 +18825,25 @@
     "FullPostcodeData": [
       "NW51TL"
     ],
-    "IncidentCategoryCustomerFriendlyDescription": "A fault has occurred on a piece of our electrical equipment which controls the power to your home.",
+    "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
     "StormIncidentCategoryCustomerFriendlyDescription": null,
     "IncidentTypeTBCEstimatedFriendlyDescription": "19 Dec 13:00 - 14:00",
     "StormIncidentTypeTBCEstimatedFriendlyDescription": null,
     "Scope": null,
     "IncidentId": "M0000c08aINCD",
     "IncidentCategory": "124",
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "IncidentType": 2,
-    "IncidentPriority": 2,
+    "IncidentPriority": 10,
     "IncidentDno": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2025-12-19T08:37:12",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2025-12-19T13:44:20.937",
     "EstimatedRestorationDate": "2025-12-19T13:30:00",
     "PlannedDate": null,
-    "PlannedDayMonth": null,
+    "PlannedDayMonth": "",
     "ReceivedDate": "2025-12-19T08:36:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 1,
     "Logs": [],
@@ -19440,6 +19440,24 @@
     "Steps": [
       {
         "Active": true,
+        "Date": "2025-12-19T13:49:21.677",
+        "Message": "Sent by Aaron at 13:48 -\n\nWe're sorry for the disruption to your power today, especially for those who may be more vulnerable without the electric. If you're worried about an elderly or ill person in your property who is affected by the power cut today, we are able to provide some support. For more information just click here: <a href=\"https://bit.ly/40quttu\" target=\"_blank\">https://bit.ly/40quttu</a>\n \nIf you have any further concerns or questions though, don't hesitate to call us free on 08003163105. We'll continue to keep you updated with our engineer's progress.",
+        "Name": "Customer Service Team",
+        "Operator": "Jawor Aaron",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
+        "Active": true,
+        "Date": "2025-12-19T13:48:17.903",
+        "Message": "What will happen next?\n\nThis outage is affecting multiple areas, so locations we mention may be further away than you'd expect. We have already sent staff to the area, but at the same time we try to restore power remotely by redirecting the electricity around the faulty section. It's possible your power may go on and off as we try to restore as much power as we can.\n\nThe engineer will head to the local substation and after checking the network, will attempt to restore more power from there. If unsuccessful, they will locate and repair the issue, which will take longer to get the lights on.\n\nOur staff work as quickly as they can, so you might not hear about everything we're doing, but we'll always try to give you the clearest information we have.",
+        "Name": "Customer Service Team",
+        "Operator": "Jawor Aaron",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
+        "Active": true,
         "Date": "2025-12-19T12:40:51.537",
         "Message": "Hi, Aaron from the messaging team here; just a quick recap on what's happened during the power cut so far. Our engineers are on site in the Winkwell HP1 area, to repair an overhead network fault. This is causing loss of power and low voltage.\n\nWe are aiming to have the power back on between 16:00-17:00 but this may change, depending how the repairs progress. If your power is back on now, please follow this link <a href=\"https://bit.ly/348KOZ3\" target=\"_blank\">https://bit.ly/348KOZ3</a> to stop SMS updates.\n\nI'm sorry for the continued disruption, but I'll keep you informed with news from site. If you have any concerns, please call us on 08003163105.",
         "Name": "Customer Service Team",
@@ -19526,6 +19544,22 @@
     "NoPlannedCustomers": 0,
     "NoCallsReported": 31,
     "Logs": [
+      {
+        "ActualEventTime": "2025-12-19T13:49:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Sent by Aaron at 13:48 -\n\nWe're sorry for the disruption to your power today, especially for those who may be more vulnerable without the electric. If you're worried about an elderly or ill person in your property who is affected by the power cut today, we are able to provide some support. For more information just click here: https://bit.ly/40quttu\n \nIf you have any further concerns or questions though, don't hesitate to call us free on 08003163105. We'll continue to keep you updated with our engineer's progress.",
+        "LoggedTime": "2025-12-19T13:49:21.677",
+        "Operator": "Jawor Aaron"
+      },
+      {
+        "ActualEventTime": "2025-12-19T13:48:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "What will happen next?\n\nThis outage is affecting multiple areas, so locations we mention may be further away than you'd expect. We have already sent staff to the area, but at the same time we try to restore power remotely by redirecting the electricity around the faulty section. It's possible your power may go on and off as we try to restore as much power as we can.\n\nThe engineer will head to the local substation and after checking the network, will attempt to restore more power from there. If unsuccessful, they will locate and repair the issue, which will take longer to get the lights on.\n\nOur staff work as quickly as they can, so you might not hear about everything we're doing, but we'll always try to give you the clearest information we have.",
+        "LoggedTime": "2025-12-19T13:48:17.903",
+        "Operator": "Jawor Aaron"
+      },
       {
         "ActualEventTime": "2025-12-19T12:40:00",
         "CategoryId": 263,
@@ -22550,7 +22584,7 @@
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Message": "",
-    "MainMessage": "We are aware of an incident caused by HV Fault Rest by Switching Only affecting the electricity supply in your area. Our engineers are dealing with this and we estimate that most supplies will be restored by 19-DEC-2025 13:30.  Please accept our sincere apologies for any inconvenience this may cause.",
+    "MainMessage": "We are currently experiencing problems with the electricity supply in your area.  Our engineers have attended the fault, and have made an emergency repair to restore power to as many premises as possible.  It is our intention to return to make a permanent repair as soon as we can.  I'm sorry, but we can't give you a time for this at present. Please accept our sincere apologies for any inconvenience this may cause.",
     "PostcodeData": [],
     "Postcode": "",
     "Coordinates": null
@@ -22730,7 +22764,7 @@
         "StepType": 0
       },
       {
-        "Active": true,
+        "Active": false,
         "Date": "2025-12-19T13:10:24",
         "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
         "Name": "Investigating & fixing",
@@ -22739,39 +22773,48 @@
         "StepType": 0
       },
       {
-        "Active": false,
-        "Date": null,
-        "Message": null,
+        "Active": true,
+        "Date": "2025-12-19T13:51:34.767",
+        "Message": "<p>All power in the area should be back on. We\u2019re really sorry for any disruption this caused.</p>",
         "Name": "Power back on",
         "Operator": null,
-        "DisplayTime": "",
+        "DisplayTime": "1:51 pm",
         "StepType": 0
       }
     ],
-    "PowerCutType": "Unplanned",
+    "PowerCutType": "Restored",
     "PostcodesRemaining": [
       "N16 5"
     ],
-    "PostcodeGeometryData": [],
+    "PostcodeGeometryData": [
+      {
+        "Center": {
+          "lat": 51.57277,
+          "lng": -0.08145
+        },
+        "Coordinates": [],
+        "Postcode": "N16 5"
+      }
+    ],
     "FullPostcodeData": [
       "N165BN",
       "N165BZ",
       "N165BL"
     ],
-    "IncidentCategoryCustomerFriendlyDescription": "A fault has occurred on a piece of our electrical equipment which controls the power to your home.",
+    "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
     "StormIncidentCategoryCustomerFriendlyDescription": null,
     "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
     "StormIncidentTypeTBCEstimatedFriendlyDescription": null,
     "Scope": null,
     "IncidentId": "J000611c1INCD",
     "IncidentCategory": "124",
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "IncidentType": 2,
-    "IncidentPriority": 2,
+    "IncidentPriority": 10,
     "IncidentDno": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2025-12-19T11:41:30",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2025-12-19T13:51:34.767",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "PlannedDayMonth": null,
@@ -22856,7 +22899,7 @@
         "StepType": 0
       },
       {
-        "Active": true,
+        "Active": false,
         "Date": "2025-12-19T12:25:39",
         "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
         "Name": "Investigating & fixing",
@@ -22865,16 +22908,16 @@
         "StepType": 0
       },
       {
-        "Active": false,
-        "Date": null,
-        "Message": null,
+        "Active": true,
+        "Date": "2025-12-19T13:40:46.14",
+        "Message": "<p>All power in the area should be back on. We\u2019re really sorry for any disruption this caused.</p>",
         "Name": "Power back on",
         "Operator": null,
-        "DisplayTime": "",
+        "DisplayTime": "1:40 pm",
         "StepType": 0
       }
     ],
-    "PowerCutType": "Unplanned",
+    "PowerCutType": "Restored",
     "PostcodesRemaining": [
       "SW8 1"
     ],
@@ -22895,25 +22938,25 @@
       "SW81AR",
       "SW81AT"
     ],
-    "IncidentCategoryCustomerFriendlyDescription": "A fault has occurred on a piece of our electrical equipment which controls the power to your home.",
+    "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
     "StormIncidentCategoryCustomerFriendlyDescription": null,
     "IncidentTypeTBCEstimatedFriendlyDescription": "19 Dec 15:30 - 16:30",
     "StormIncidentTypeTBCEstimatedFriendlyDescription": null,
     "Scope": null,
     "IncidentId": "J000611c5INCD",
     "IncidentCategory": "124",
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "IncidentType": 2,
-    "IncidentPriority": 2,
+    "IncidentPriority": 10,
     "IncidentDno": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2025-12-19T11:53:21",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2025-12-19T13:40:46.14",
     "EstimatedRestorationDate": "2025-12-19T16:00:00",
     "PlannedDate": null,
-    "PlannedDayMonth": null,
+    "PlannedDayMonth": "",
     "ReceivedDate": "2025-12-19T11:52:00",
-    "NoCustomerAffected": 95,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 32,
     "Logs": [
@@ -22962,7 +23005,7 @@
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Message": "",
-    "MainMessage": "We are aware of an incident caused by LV Fuse Replacement/Linking affecting the electricity supply in your area. Our engineers are dealing with this and we estimate that most supplies will be restored by 19-DEC-2025 16:00.  Please accept our sincere apologies for any inconvenience this may cause.",
+    "MainMessage": "We have repaired the problem with the electricity supply in your area. There may still be some tidying up to do, and any details have been passed to our Maintenance department, who will attend to it as soon as possible. Please accept our sincere apologies for any inconvenience this may cause. ",
     "PostcodeData": [],
     "Postcode": "",
     "Coordinates": null
@@ -23137,6 +23180,15 @@
     "PanelContentUrl": null,
     "Steps": [
       {
+        "Active": true,
+        "Date": "2025-12-19T13:40:55.7",
+        "Message": "Sent by Bev at 13:40 - Our engineers have investigated and found that the power is off due to a fault on our underground electricity network which has affected our substation equipment, so we're sending a specialist team to pinpoint the fault and dig down to expose the cabling for repairs.\n\nConsidering the work that may be required, the revised estimated time to have the power back on is between 20:00 and 21:00.\n\nWe're sorry to change the time, but we'll keep you updated with our progress. If you have any questions or concerns, our team are always here to talk on 105.",
+        "Name": "Customer Service Team",
+        "Operator": "Bev Wood",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
         "Active": false,
         "Date": "2025-12-19T12:16:46",
         "Message": "<p>We became aware of a power cut at 12:16. We\u2019re sorry for any disruption this may have caused you. We didn\u2019t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly.</p>",
@@ -23216,7 +23268,16 @@
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 9,
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2025-12-19T13:40:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Sent by Bev at 13:40 - Our engineers have investigated and found that the power is off due to a fault on our underground electricity network which has affected our substation equipment, so we're sending a specialist team to pinpoint the fault and dig down to expose the cabling for repairs.\n\nConsidering the work that may be required, the revised estimated time to have the power back on is between 20:00 and 21:00.\n\nWe're sorry to change the time, but we'll keep you updated with our progress. If you have any questions or concerns, our team are always here to talk on 105.",
+        "LoggedTime": "2025-12-19T13:40:55.7",
+        "Operator": "Bev Wood"
+      }
+    ],
     "PostCodesAffected": [
       "NW1 9"
     ],
@@ -23381,6 +23442,24 @@
     "PanelContentUrl": null,
     "Steps": [
       {
+        "Active": true,
+        "Date": "2025-12-19T13:38:45.9",
+        "Message": "What will happen next?\n\nThis outage is affecting multiple areas, so locations we mention may be further away than you'd expect. We have already sent staff to the area, but at the same time we try to restore power remotely by redirecting the electricity around the faulty section. It's possible your power may go on and off as we try to restore as much power as we can.\n\nThe engineer will head to the local substation and after checking the network, will attempt to restore more power from there. If unsuccessful, they will locate and repair the issue, which will take longer to get the lights on.\n\nOur staff work as quickly as they can, so you might not hear about everything we're doing, but we'll always try to give you the clearest information we have.",
+        "Name": "Customer Service Team",
+        "Operator": "Jawor Aaron",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
+        "Active": true,
+        "Date": "2025-12-19T13:38:02.817",
+        "Message": "Sent by Aaron at 13:37 - Our engineers are on their way. We believe the issue is an underground network fault that initially interrupted power to 1272 properties.\n\nHowever, we have managed to divert power back to some properties, so 473 properties are still affected. Specialist engineers from our control room will continue to divert power remotely, so your power may come back on at any point. Sometimes we can't restore everyone this way, so we're also sending staff to check our equipment.\n\nWe're currently estimating power will be on between 16:00-17:00, but this may change depending on what our staff find.\n\nPower back on? To stop receiving texts, follow this link <a href=\"https://bit.ly/348KOZ3\" target=\"_blank\">https://bit.ly/348KOZ3</a> to unsubscribe. Otherwise, we'll keep you updated.",
+        "Name": "Customer Service Team",
+        "Operator": "Jawor Aaron",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
         "Active": false,
         "Date": "2025-12-19T13:24:04",
         "Message": "<p>We became aware of this power cut at 13:24. We\u2019re sorry for any disruption this may have caused you. We didn\u2019t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone\u2019s power back on we may need to attend to investigate and make repairs. We\u2019ll continue to update you until everyone\u2019s power is back on.</p>",
@@ -23390,7 +23469,7 @@
         "StepType": 0
       },
       {
-        "Active": true,
+        "Active": false,
         "Date": "2025-12-19T13:25:35",
         "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they\u2019ll work as quickly as is safely possible to get your power back on.</p>",
         "Name": "Engineers on their way",
@@ -23399,12 +23478,12 @@
         "StepType": 0
       },
       {
-        "Active": false,
-        "Date": null,
-        "Message": null,
+        "Active": true,
+        "Date": "2025-12-19T13:49:54",
+        "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
         "Name": "Investigating & fixing",
         "Operator": null,
-        "DisplayTime": "",
+        "DisplayTime": "1:49 pm",
         "StepType": 0
       },
       {
@@ -23532,8 +23611,25 @@
     "ReceivedDate": "2025-12-19T13:24:04",
     "NoCustomerAffected": 473,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 1,
-    "Logs": [],
+    "NoCallsReported": 2,
+    "Logs": [
+      {
+        "ActualEventTime": "2025-12-19T13:38:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "What will happen next?\n\nThis outage is affecting multiple areas, so locations we mention may be further away than you'd expect. We have already sent staff to the area, but at the same time we try to restore power remotely by redirecting the electricity around the faulty section. It's possible your power may go on and off as we try to restore as much power as we can.\n\nThe engineer will head to the local substation and after checking the network, will attempt to restore more power from there. If unsuccessful, they will locate and repair the issue, which will take longer to get the lights on.\n\nOur staff work as quickly as they can, so you might not hear about everything we're doing, but we'll always try to give you the clearest information we have.",
+        "LoggedTime": "2025-12-19T13:38:45.9",
+        "Operator": "Jawor Aaron"
+      },
+      {
+        "ActualEventTime": "2025-12-19T13:37:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Sent by Aaron at 13:37 - Our engineers are on their way. We believe the issue is an underground network fault that initially interrupted power to 1272 properties.\n\nHowever, we have managed to divert power back to some properties, so 473 properties are still affected. Specialist engineers from our control room will continue to divert power remotely, so your power may come back on at any point. Sometimes we can't restore everyone this way, so we're also sending staff to check our equipment.\n\nWe're currently estimating power will be on between 16:00-17:00, but this may change depending on what our staff find.\n\nPower back on? To stop receiving texts, follow this link https://bit.ly/348KOZ3 to unsubscribe. Otherwise, we'll keep you updated.",
+        "LoggedTime": "2025-12-19T13:38:02.817",
+        "Operator": "Jawor Aaron"
+      }
+    ],
     "PostCodesAffected": [
       "E4 6",
       "E4 7",
@@ -23771,6 +23867,24 @@
     "Steps": [
       {
         "Active": true,
+        "Date": "2025-12-19T13:41:43.753",
+        "Message": "What will happen next?\n\nThis outage is affecting multiple areas, so locations we mention may be further away than you'd expect. We have already sent staff to the area, but at the same time we try to restore power remotely by redirecting the electricity around the faulty section. It's possible your power may go on and off as we try to restore as much power as we can.\n\nThe engineer will head to the local substation and after checking the network, will attempt to restore more power from there. If unsuccessful, they will locate and repair the issue, which will take longer to get the lights on.\n\nOur staff work as quickly as they can, so you might not hear about everything we're doing, but we'll always try to give you the clearest information we have.",
+        "Name": "Customer Service Team",
+        "Operator": "Jawor Aaron",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
+        "Active": true,
+        "Date": "2025-12-19T13:41:12.62",
+        "Message": "Sent by Aaron at 13:40 - Our engineers are on their way. We believe the issue is an underground network fault that initially interrupted power to 163 properties.\n\nHowever, we have managed to divert power back to some properties, so 145 properties are still affected. Specialist engineers from our control room will continue to divert power remotely, so your power may come back on at any point. Sometimes we can't restore everyone this way, so we're also sending staff to check our equipment.\n\nWe're currently estimating power will be on between 16:00-17:00, but this may change depending on what our staff find.\n\nPower back on? To stop receiving texts, follow this link <a href=\"https://bit.ly/348KOZ3\" target=\"_blank\">https://bit.ly/348KOZ3</a> to unsubscribe. Otherwise, we'll keep you updated.",
+        "Name": "Customer Service Team",
+        "Operator": "Jawor Aaron",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
+        "Active": false,
         "Date": "2025-12-19T13:33:29",
         "Message": "<p>We became aware of this power cut at 13:33. We\u2019re sorry for any disruption this may have caused you. We didn\u2019t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone\u2019s power back on we may need to attend to investigate and make repairs. We\u2019ll continue to update you until everyone\u2019s power is back on.</p>",
         "Name": "We are restoring customers automatically",
@@ -23779,12 +23893,12 @@
         "StepType": 0
       },
       {
-        "Active": false,
-        "Date": null,
-        "Message": null,
+        "Active": true,
+        "Date": "2025-12-19T13:38:18",
+        "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they\u2019ll work as quickly as is safely possible to get your power back on.</p>",
         "Name": "Engineers on their way",
         "Operator": null,
-        "DisplayTime": "",
+        "DisplayTime": "1:38 pm",
         "StepType": 0
       },
       {
@@ -23850,7 +23964,7 @@
     ],
     "IncidentCategoryCustomerFriendlyDescription": "An underground electricity cable has faulted on our high voltage network, causing an area wide power cut.",
     "StormIncidentCategoryCustomerFriendlyDescription": null,
-    "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
+    "IncidentTypeTBCEstimatedFriendlyDescription": "19 Dec 16:00 - 17:00",
     "StormIncidentTypeTBCEstimatedFriendlyDescription": null,
     "Scope": null,
     "IncidentId": "Z0008ba80INCD",
@@ -23859,17 +23973,34 @@
     "IncidentType": 3,
     "IncidentPriority": 2,
     "IncidentDno": 1,
-    "StatusId": 2,
+    "StatusId": 1,
     "CreationDateTime": "2025-12-19T13:33:43",
     "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
+    "EstimatedRestorationDate": "2025-12-19T16:30:00",
     "PlannedDate": null,
     "PlannedDayMonth": null,
     "ReceivedDate": "2025-12-19T13:33:29",
     "NoCustomerAffected": 145,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
-    "Logs": [],
+    "NoCallsReported": 38,
+    "Logs": [
+      {
+        "ActualEventTime": "2025-12-19T13:41:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "What will happen next?\n\nThis outage is affecting multiple areas, so locations we mention may be further away than you'd expect. We have already sent staff to the area, but at the same time we try to restore power remotely by redirecting the electricity around the faulty section. It's possible your power may go on and off as we try to restore as much power as we can.\n\nThe engineer will head to the local substation and after checking the network, will attempt to restore more power from there. If unsuccessful, they will locate and repair the issue, which will take longer to get the lights on.\n\nOur staff work as quickly as they can, so you might not hear about everything we're doing, but we'll always try to give you the clearest information we have.",
+        "LoggedTime": "2025-12-19T13:41:43.753",
+        "Operator": "Jawor Aaron"
+      },
+      {
+        "ActualEventTime": "2025-12-19T13:41:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Sent by Aaron at 13:40 - Our engineers are on their way. We believe the issue is an underground network fault that initially interrupted power to 163 properties.\n\nHowever, we have managed to divert power back to some properties, so 145 properties are still affected. Specialist engineers from our control room will continue to divert power remotely, so your power may come back on at any point. Sometimes we can't restore everyone this way, so we're also sending staff to check our equipment.\n\nWe're currently estimating power will be on between 16:00-17:00, but this may change depending on what our staff find.\n\nPower back on? To stop receiving texts, follow this link https://bit.ly/348KOZ3 to unsubscribe. Otherwise, we'll keep you updated.",
+        "LoggedTime": "2025-12-19T13:41:12.62",
+        "Operator": "Jawor Aaron"
+      }
+    ],
     "PostCodesAffected": [
       "NR32 1"
     ],
@@ -23932,7 +24063,7 @@
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Message": "",
-    "MainMessage": "We are currently experiencing problems with the electricity supply in your area.  Our engineers have attended the fault, and have made an emergency repair to restore power to as many premises as possible.  It is our intention to return to make a permanent repair as soon as we can.  I'm sorry, but we can't give you a time for this at present. Please accept our sincere apologies for any inconvenience this may cause.",
+    "MainMessage": "We are aware of an incident caused by 11kV UG Fault affecting the electricity supply in your area. Our engineers are dealing with this and we estimate that most supplies will be restored by 19-DEC-2025 16:30.  Please accept our sincere apologies for any inconvenience this may cause.",
     "PostcodeData": [],
     "Postcode": "",
     "Coordinates": null
@@ -23942,26 +24073,26 @@
     "RestoredIncidents": null,
     "UnplannedIncidents": null,
     "PlannedIncidents": null,
-    "IncidentReference": "INCD-397784-J",
+    "IncidentReference": "INCD-327130-U",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [
       {
-        "Active": true,
-        "Date": "2025-12-19T13:37:53",
-        "Message": "<p>We became aware of a power cut at 13:37. We\u2019re sorry for any disruption this may have caused you. We didn\u2019t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly.</p>",
+        "Active": false,
+        "Date": "2025-12-19T13:46:18",
+        "Message": "<p>We became aware of a power cut at 13:46. We\u2019re sorry for any disruption this may have caused you. We didn\u2019t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly.</p>",
         "Name": "Reported",
         "Operator": null,
-        "DisplayTime": "1:37 pm",
+        "DisplayTime": "1:46 pm",
         "StepType": 0
       },
       {
-        "Active": false,
-        "Date": null,
-        "Message": null,
+        "Active": true,
+        "Date": "2025-12-19T13:50:57",
+        "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they\u2019ll work as quickly as is safely possible to get your power back on.</p>",
         "Name": "Engineers on their way",
         "Operator": null,
-        "DisplayTime": "",
+        "DisplayTime": "1:50 pm",
         "StepType": 0
       },
       {
@@ -23985,56 +24116,54 @@
     ],
     "PowerCutType": "Unplanned",
     "PostcodesRemaining": [
-      "N16 0",
-      "N16 5"
+      "BR2 7"
     ],
     "PostcodeGeometryData": [
       {
         "Center": {
-          "lat": 51.56158,
-          "lng": -0.08229
+          "lat": 51.37635,
+          "lng": 0.01602
         },
         "Coordinates": [],
-        "Postcode": "N16 0"
+        "Postcode": "BR2 7"
       }
     ],
     "FullPostcodeData": [
-      "N165BL",
-      "N160AQ"
+      "BR27BS",
+      "BR27BE"
     ],
     "IncidentCategoryCustomerFriendlyDescription": "We're currently investigating a fault on the electricity network which has caused a power cut in the local area.",
     "StormIncidentCategoryCustomerFriendlyDescription": null,
     "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
     "StormIncidentTypeTBCEstimatedFriendlyDescription": null,
     "Scope": null,
-    "IncidentId": "J000611d8INCD",
+    "IncidentId": "U0004fddaINCD",
     "IncidentCategory": "104",
     "IncidentTypeName": "Unplanned",
     "IncidentType": 2,
     "IncidentPriority": 2,
-    "IncidentDno": 2,
-    "StatusId": 0,
-    "CreationDateTime": "2025-12-19T13:37:53",
+    "IncidentDno": 3,
+    "StatusId": 1,
+    "CreationDateTime": "2025-12-19T13:46:15",
     "RestoredDateTime": null,
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "PlannedDayMonth": null,
-    "ReceivedDate": "2025-12-19T13:37:53",
+    "ReceivedDate": "2025-12-19T13:46:18",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 9,
     "Logs": [],
     "PostCodesAffected": [
-      "N16 0",
-      "N16 5"
+      "BR2 7"
     ],
     "PostCodesRestored": [
-      "N165BL",
-      "N160AQ"
+      "BR27BS",
+      "BR27BE"
     ],
     "PostCodesPlanned": [
-      "N165BL",
-      "N160AQ"
+      "BR27BS",
+      "BR27BE"
     ],
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
@@ -24052,7 +24181,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-814aab41-bd45-4fe5-9026-71156997119c",
+    "IncidentReference": "MULT-4a53efba-bc08-4e4c-80b4-4480cface269",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24114,7 +24243,7 @@
     "PlannedIncidents": [
       "INCD-327072-U"
     ],
-    "IncidentReference": "MULT-091cac18-7608-492a-a10a-6df6c5095a3a",
+    "IncidentReference": "MULT-0bc5a4f3-ee3e-4580-8c89-6ae425f4bf9e",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24178,7 +24307,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-6afc8aa8-57c0-4d51-8688-5fd22b1c1d25",
+    "IncidentReference": "MULT-f2b3f9c5-c7df-415b-8677-c4dcbdbd44d6",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24239,7 +24368,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-5cfdef38-b829-46d8-b7ba-7506035d950e",
+    "IncidentReference": "MULT-37217e46-4f10-45ee-8b8f-3eeb39fe796c",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24300,7 +24429,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-32d6d294-080c-4b1a-9dd1-6e8ca91cb2cd",
+    "IncidentReference": "MULT-72d72842-5794-408d-825c-3213f6c392da",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24361,7 +24490,7 @@
       "INCD-571707-Z"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-cccb2be6-4534-45e8-b5a1-0029ebb4a489",
+    "IncidentReference": "MULT-069d3b92-2275-46b4-be32-31fe505264fa",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24425,7 +24554,7 @@
       "INCD-428549-G"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-89ecb27f-b146-4a33-bba9-4db57a598c07",
+    "IncidentReference": "MULT-4557b23b-3b8e-4202-b000-a8cc9ed8e8a4",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24485,7 +24614,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-f527f026-e69f-45d4-bb93-e5799cc7ea79",
+    "IncidentReference": "MULT-2ce61ed0-59c7-4c08-8bef-228461c1f1db",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24549,7 +24678,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-2d423657-1079-4963-a85e-ca20e0ed28e8",
+    "IncidentReference": "MULT-bb7b1da6-bc57-40a8-87b1-65bb20517c85",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24613,7 +24742,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-28a23526-2fa0-4ae0-8d2e-c0561c6726e4",
+    "IncidentReference": "MULT-b797acd5-4b57-46fd-9bce-3b888bbf1b8c",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24679,7 +24808,7 @@
       "INCD-571976-Z"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-d612d2e9-2fd5-4c5c-96dc-13068156377b",
+    "IncidentReference": "MULT-e27594fb-6aca-4e90-b07d-5fa195b8724a",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24742,7 +24871,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-c239b2a6-75b4-47f4-8b73-85efe29f6318",
+    "IncidentReference": "MULT-ef11deee-57aa-4c9a-9040-b9ed255abe2c",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24805,7 +24934,7 @@
       "INCD-98057-V"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-b31239ba-3bde-406d-b5d2-a41194971a19",
+    "IncidentReference": "MULT-0f8a05e2-86fb-4614-8497-c2e46bfa4a3b",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24865,7 +24994,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-a3b7a0dd-9272-4504-ac58-0966ab8e2134",
+    "IncidentReference": "MULT-f9039fef-5d67-41f0-a550-a7d5e3b25693",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24927,7 +25056,7 @@
       "INCD-428612-G"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-0e0474cc-e538-4b12-8c67-240efea9d2a1",
+    "IncidentReference": "MULT-d8d430b5-ec20-479a-b7d9-2141b8c59834",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -24992,7 +25121,7 @@
       "INCD-428612-G"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-068d7bb0-50b3-4544-b15e-2998bf0ae3cf",
+    "IncidentReference": "MULT-4719fa93-790c-417e-93ea-de0f19d5c794",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25058,7 +25187,7 @@
       "INCD-428612-G"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-0c280f7e-e6c5-4875-bdff-1edaf1c14dd7",
+    "IncidentReference": "MULT-0d9ee1ff-d664-48d1-bdb5-addb1c5f7647",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25123,7 +25252,7 @@
       "INCD-428632-G"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-397e0d8b-6afc-46d3-8c90-cc5f0f57317a",
+    "IncidentReference": "MULT-87df848f-f3c2-444c-bff5-e156f4b4aea4",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25186,7 +25315,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-d8edd998-710d-4cde-9d0e-41a4af9d0a18",
+    "IncidentReference": "MULT-8ae35272-2c7e-43be-978c-672fefb5cb81",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25247,7 +25376,7 @@
       "INCD-571989-Z"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-422ed1ba-84d7-49e1-8121-7941e5ffe042",
+    "IncidentReference": "MULT-b1f508f5-435b-4303-9cf8-22978ddf3d11",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25308,7 +25437,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-18f35053-b707-4d7a-81d5-2a06fcf9e5e8",
+    "IncidentReference": "MULT-b0071b39-04d0-4b44-bbd3-ab2a8e8fa4db",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25369,7 +25498,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-3a4c9bad-790e-45fd-ae87-497bb7ff2153",
+    "IncidentReference": "MULT-ed639378-2e6d-4c21-a118-bb830440ae81",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25430,7 +25559,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-d548f3f4-6f14-4266-9c08-35c2cdcfd5fa",
+    "IncidentReference": "MULT-6cec7035-a71c-4c96-b0dd-6a1584064a36",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25493,7 +25622,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-8bf3c933-0310-4247-b902-16e578af844a",
+    "IncidentReference": "MULT-4b0bbefe-6417-4ab2-9581-6b3f45bfa6a5",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25554,7 +25683,7 @@
       "INCD-571858-Z"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-a522229e-767a-43e9-bfc5-5a0c8baa185a",
+    "IncidentReference": "MULT-fb257a88-e26f-4b95-9a48-1112bf2f3b69",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25615,7 +25744,7 @@
       "INCD-571867-Z"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-96076405-f845-43ab-9d9b-8bf4724a6d8d",
+    "IncidentReference": "MULT-87ef2263-b75f-48f6-b5a9-e92ee924da52",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25676,7 +25805,7 @@
       "INCD-571872-Z"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-523dced7-d620-429f-8181-070b25cdf90f",
+    "IncidentReference": "MULT-25b2bdb4-60c9-4f7f-968f-e08271d8bcb3",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25740,7 +25869,7 @@
       "INCD-428645-G"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-bcf757c8-1101-4b8c-b32a-e35c32b2d3eb",
+    "IncidentReference": "MULT-a4eabb6d-a96b-4e73-9b70-cd23ffc2cef4",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25803,7 +25932,7 @@
       "INCD-571976-Z"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-8a46856e-995d-4c5a-9c90-5da68d7eaa68",
+    "IncidentReference": "MULT-f10d392b-f40d-4092-83ce-2200222dc333",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25866,7 +25995,7 @@
       "INCD-571976-Z"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-a554a80a-33cd-4c15-b32e-3195c801428d",
+    "IncidentReference": "MULT-c0a3845c-e7dd-4d4b-ba38-f371615994ad",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25929,7 +26058,7 @@
       "INCD-397781-J"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-132fcf8a-2409-4cfb-a7e6-3288373a3684",
+    "IncidentReference": "MULT-446beb7a-4ac3-4c38-98c2-2dcaa17b3460",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -25991,7 +26120,7 @@
       "INCD-397781-J"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-54e905d8-a935-4878-86d0-24da20bf7f71",
+    "IncidentReference": "MULT-e04e7504-150a-452e-9150-38b864766203",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -26033,67 +26162,6 @@
     "PostCodesAffected": [
       "WC1A 2",
       "WC1V 6"
-    ],
-    "PostCodesRestored": null,
-    "PostCodesPlanned": null,
-    "Timestamp": "0001-01-01T00:00:00",
-    "PlannedIncidentReason": null,
-    "Message": null,
-    "MainMessage": null,
-    "PostcodeData": [],
-    "Postcode": "",
-    "Coordinates": null
-  },
-  {
-    "IncidentsCount": 2,
-    "RestoredIncidents": [],
-    "UnplannedIncidents": [
-      "INCD-397761-J",
-      "INCD-397784-J"
-    ],
-    "PlannedIncidents": [],
-    "IncidentReference": "MULT-88aca94e-85df-4a98-a084-6a1990f16cfa",
-    "IncidentDescription": null,
-    "PanelContentUrl": null,
-    "Steps": [],
-    "PowerCutType": "Multiple",
-    "PostcodesRemaining": [],
-    "PostcodeGeometryData": [
-      {
-        "Center": {
-          "lat": 51.57277,
-          "lng": -0.08145
-        },
-        "Coordinates": [],
-        "Postcode": "N16 5"
-      }
-    ],
-    "FullPostcodeData": [],
-    "IncidentCategoryCustomerFriendlyDescription": null,
-    "StormIncidentCategoryCustomerFriendlyDescription": null,
-    "IncidentTypeTBCEstimatedFriendlyDescription": null,
-    "StormIncidentTypeTBCEstimatedFriendlyDescription": null,
-    "Scope": null,
-    "IncidentId": null,
-    "IncidentCategory": null,
-    "IncidentTypeName": null,
-    "IncidentType": 0,
-    "IncidentPriority": 0,
-    "IncidentDno": 0,
-    "StatusId": 0,
-    "CreationDateTime": "0001-01-01T00:00:00",
-    "RestoredDateTime": null,
-    "EstimatedRestorationDate": null,
-    "PlannedDate": null,
-    "PlannedDayMonth": null,
-    "ReceivedDate": null,
-    "NoCustomerAffected": 0,
-    "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
-    "Logs": null,
-    "PostCodesAffected": [
-      "N16 5",
-      "N16 0"
     ],
     "PostCodesRestored": null,
     "PostCodesPlanned": null,
