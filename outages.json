@@ -4983,7 +4983,7 @@
     "IncidentCategory": "47",
     "IncidentTypeName": "Restored",
     "IncidentType": 2,
-    "IncidentPriority": 10,
+    "IncidentPriority": 500,
     "IncidentDno": 1,
     "StatusId": 5,
     "CreationDateTime": "2025-12-28T10:43:34",
@@ -5018,7 +5018,7 @@
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Message": "",
-    "MainMessage": "We are aware of an incident caused by LV UG Network Fault affecting the electricity supply in your area. Our engineers are dealing with this, but we are sorry we can't give you a time for the restoration of supply at present.  Please accept our sincere apologies for any inconvenience this may cause.",
+    "MainMessage": "We are currently experiencing problems with the electricity supply in your area.  We are arranging to have engineers investigate the fault.  We are sorry we can't give you a time for the restoration of supply at present. Please accept our sincere apologies for any inconvenience this may cause.",
     "PostcodeData": [],
     "Postcode": "",
     "Coordinates": null
@@ -5747,6 +5747,15 @@
     "Steps": [
       {
         "Active": true,
+        "Date": "2025-12-28T18:51:33.453",
+        "Message": "Sent by Will at 18:51 - We can now confirm that all power in the Coolhurst Road area should be back on. The issue was caused by an unexpected fault with some of our network equipment, which our engineers have now replaced.\n\nWe know that being without power can be especially difficult, so we're sorry for the outage. Please rest assured our staff will continue to work around the clock to keep the lights on.\n\nIf your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "Name": "Customer Service Team",
+        "Operator": "William Savage",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
+        "Active": true,
         "Date": "2025-12-28T18:20:45.887",
         "Message": "Sent by Will at 18:20 - Our engineers have been able to replace some faulty substation equipment, restoring power to some customers.\n\nWe know your power may now be back on, however; we'll keep sending text updates to everyone until all the power to your area is on. To stop receiving texts, just follow this link <a href=\"https://bit.ly/348KOZ3\" target=\"_blank\">https://bit.ly/348KOZ3</a> to unsubscribe.",
         "Name": "Customer Service Team",
@@ -5791,7 +5800,7 @@
         "StepType": 0
       },
       {
-        "Active": true,
+        "Active": false,
         "Date": "2025-12-28T17:10:11",
         "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
         "Name": "Investigating & fixing",
@@ -5800,16 +5809,16 @@
         "StepType": 0
       },
       {
-        "Active": false,
-        "Date": null,
-        "Message": null,
+        "Active": true,
+        "Date": "2025-12-28T18:43:16.323",
+        "Message": "<p>All power in the area should be back on. We\u2019re really sorry for any disruption this caused.</p>",
         "Name": "Power back on",
         "Operator": null,
-        "DisplayTime": "",
+        "DisplayTime": "6:43 pm",
         "StepType": 0
       }
     ],
-    "PowerCutType": "Unplanned",
+    "PowerCutType": "Restored",
     "PostcodesRemaining": [
       "N6 5",
       "N8 8"
@@ -5834,38 +5843,46 @@
     ],
     "FullPostcodeData": [
       "N88EH",
+      "N88ER",
       "N88EP",
       "N88EL",
-      "N88ER",
       "N88EN",
       "N65DN",
-      "N88EW",
-      "N88HY",
       "N88EY",
-      "N88EJ"
+      "N88EJ",
+      "N88HY",
+      "N88EW"
     ],
-    "IncidentCategoryCustomerFriendlyDescription": "A fault has occurred on a piece of our electrical equipment which controls the power to your home.",
+    "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on a piece of our electrical equipment which controls the power to your home.",
     "StormIncidentCategoryCustomerFriendlyDescription": null,
     "IncidentTypeTBCEstimatedFriendlyDescription": "28 Dec 19:30 - 20:30",
     "StormIncidentTypeTBCEstimatedFriendlyDescription": null,
     "Scope": null,
     "IncidentId": "Z0008bf48INCD",
     "IncidentCategory": "124",
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "IncidentType": 2,
-    "IncidentPriority": 2,
+    "IncidentPriority": 10,
     "IncidentDno": 1,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2025-12-28T16:03:19",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2025-12-28T18:43:16.323",
     "EstimatedRestorationDate": "2025-12-28T20:00:00",
     "PlannedDate": null,
-    "PlannedDayMonth": null,
+    "PlannedDayMonth": "",
     "ReceivedDate": "2025-12-28T16:02:00",
-    "NoCustomerAffected": 48,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 47,
     "Logs": [
+      {
+        "ActualEventTime": "2025-12-28T18:51:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Sent by Will at 18:51 - We can now confirm that all power in the Coolhurst Road area should be back on. The issue was caused by an unexpected fault with some of our network equipment, which our engineers have now replaced.\n\nWe know that being without power can be especially difficult, so we're sorry for the outage. Please rest assured our staff will continue to work around the clock to keep the lights on.\n\nIf your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
+        "LoggedTime": "2025-12-28T18:51:33.453",
+        "Operator": "William Savage"
+      },
       {
         "ActualEventTime": "2025-12-28T18:20:00",
         "CategoryId": 263,
@@ -5897,27 +5914,27 @@
     ],
     "PostCodesRestored": [
       "N88EH",
+      "N88ER",
       "N88EP",
       "N88EL",
-      "N88ER",
       "N88EN",
       "N65DN",
-      "N88EW",
-      "N88HY",
       "N88EY",
-      "N88EJ"
+      "N88EJ",
+      "N88HY",
+      "N88EW"
     ],
     "PostCodesPlanned": [
       "N88EH",
+      "N88ER",
       "N88EP",
       "N88EL",
-      "N88ER",
       "N88EN",
       "N65DN",
-      "N88EW",
-      "N88HY",
       "N88EY",
-      "N88EJ"
+      "N88EJ",
+      "N88HY",
+      "N88EW"
     ],
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
@@ -6391,6 +6408,24 @@
     "Steps": [
       {
         "Active": true,
+        "Date": "2025-12-28T18:41:28.39",
+        "Message": "Hi, this is Will from the messaging team at UK Power Networks. I'm sorry for the power cut today; I know the lights going off can be disruptive.\n\nWe know that some customers affected by todays power cut may have had other issues recently, and I appreciate this is frustrating. High voltage cabling can cover a wide area, so sometimes properties very close to you may have had power cuts that you didn't experience.\n\nI know you may not have had any previous power cuts, but if you have, we often get progress updates from our field staff management about investigations into repeat issues, and our Customer Services team will try to contact everyone affected by them to explain what's happening.",
+        "Name": "Customer Service Team",
+        "Operator": "William Savage",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
+        "Active": true,
+        "Date": "2025-12-28T18:39:57.857",
+        "Message": "Sent by Will at 18:39 - Our engineers are on their way. At this point we think the issue is an overhead network fault affecting 86 properties.\n\nSpecialist engineers from our control room are also working to divert power remotely, so it's possible your power could come back on at any point. We can't always restore everyone this way. That's why we're also sending staff to the area to check our equipment.\n\nEvery fault is different, so our time frames have to be estimated but currently we hope to have power back on between 20:00 and 21:00. We must stress that it may become necessary for this to change, depending on what our engineers find.\n\nWe'll keep you updated with our progress.",
+        "Name": "Customer Service Team",
+        "Operator": "William Savage",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
+        "Active": true,
         "Date": "2025-12-28T18:31:56.473",
         "Message": "What will happen next?\n\nThis outage is affecting multiple areas, so locations we mention may be further away than you'd expect. We have already sent staff to the area, but at the same time we try to restore power remotely by redirecting the electricity around the faulty section. It's possible your power may go on and off as we try to restore as much power as we can.\n\nThe engineer will head to the local substation and after checking the network, will attempt to restore more power from there. If unsuccessful, they will locate and repair the issue, which will take longer to get the lights on.\n\nOur staff work as quickly as they can, so you might not hear about everything we're doing, but we'll always try to give you the clearest information we have.",
         "Name": "Customer Service Team",
@@ -6483,8 +6518,24 @@
     "ReceivedDate": "2025-12-28T18:25:21",
     "NoCustomerAffected": 86,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 10,
+    "NoCallsReported": 12,
     "Logs": [
+      {
+        "ActualEventTime": "2025-12-28T18:41:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Hi, this is Will from the messaging team at UK Power Networks. I'm sorry for the power cut today; I know the lights going off can be disruptive.\n\nWe know that some customers affected by todays power cut may have had other issues recently, and I appreciate this is frustrating. High voltage cabling can cover a wide area, so sometimes properties very close to you may have had power cuts that you didn't experience.\n\nI know you may not have had any previous power cuts, but if you have, we often get progress updates from our field staff management about investigations into repeat issues, and our Customer Services team will try to contact everyone affected by them to explain what's happening.",
+        "LoggedTime": "2025-12-28T18:41:28.39",
+        "Operator": "William Savage"
+      },
+      {
+        "ActualEventTime": "2025-12-28T18:39:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Sent by Will at 18:39 - Our engineers are on their way. At this point we think the issue is an overhead network fault affecting 86 properties.\n\nSpecialist engineers from our control room are also working to divert power remotely, so it's possible your power could come back on at any point. We can't always restore everyone this way. That's why we're also sending staff to the area to check our equipment.\n\nEvery fault is different, so our time frames have to be estimated but currently we hope to have power back on between 20:00 and 21:00. We must stress that it may become necessary for this to change, depending on what our engineers find.\n\nWe'll keep you updated with our progress.",
+        "LoggedTime": "2025-12-28T18:39:57.857",
+        "Operator": "William Savage"
+      },
       {
         "ActualEventTime": "2025-12-28T18:31:00",
         "CategoryId": 263,
@@ -6540,7 +6591,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-c3917da7-7ed4-486b-9bf7-0d94f784605e",
+    "IncidentReference": "MULT-0198c18f-7fec-48a3-a43d-f4e26bc661b9",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -6601,7 +6652,7 @@
       "INCD-573269-Z"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-33600d97-947f-4fec-84f3-7ef5f0e94eb2",
+    "IncidentReference": "MULT-3e3fb512-09c6-4543-99aa-eb1b9b73aba0",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -6665,7 +6716,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-dbd7691b-e1bd-4658-b8b2-53d498af9b1a",
+    "IncidentReference": "MULT-48657d2d-4c2f-4d4c-8f50-9c9ed640d72d",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -6727,7 +6778,7 @@
       "INCD-398149-J"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-e11acf3a-6af2-427f-ba76-260bbbacf8ab",
+    "IncidentReference": "MULT-3dd18c90-382f-4780-b5a0-ef7a16c4b6ff",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
