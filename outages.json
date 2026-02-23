@@ -1746,7 +1746,7 @@
     "IncidentType": 2,
     "IncidentPriority": 12,
     "IncidentDno": 3,
-    "StatusId": 1,
+    "StatusId": 2,
     "CreationDateTime": "2026-02-04T13:56:44",
     "RestoredDateTime": null,
     "EstimatedRestorationDate": "2026-02-23T17:00:00",
@@ -4713,7 +4713,7 @@
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Message": "",
-    "MainMessage": "We are currently experiencing problems with the electricity supply in your area.  We are arranging to have engineers investigate the fault.  We are sorry we can't give you a time for the restoration of supply at present. Please accept our sincere apologies for any inconvenience this may cause.",
+    "MainMessage": "We are aware of an incident caused by 11kV UG Fault affecting the electricity supply in your area. Our engineers are dealing with this, but we are sorry we can't give you a time for the restoration of supply at present.  Please accept our sincere apologies for any inconvenience this may cause.",
     "PostcodeData": [],
     "Postcode": "",
     "Coordinates": null
@@ -10112,7 +10112,7 @@
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Message": "",
-    "MainMessage": "We are currently experiencing problems with the electricity supply in your area.  We are arranging to have engineers investigate the fault.  We are sorry we can't give you a time for the restoration of supply at present. Please accept our sincere apologies for any inconvenience this may cause.",
+    "MainMessage": "We are aware of an incident caused by LV UG Network Fault affecting the electricity supply in your area. Our engineers are dealing with this, but we are sorry we can't give you a time for the restoration of supply at present.  Please accept our sincere apologies for any inconvenience this may cause.",
     "PostcodeData": [],
     "Postcode": "",
     "Coordinates": null
@@ -11209,6 +11209,15 @@
     "Steps": [
       {
         "Active": true,
+        "Date": "2026-02-23T08:16:11.387",
+        "Message": "Sent by Donny at 08:16 - Thanks for bearing with us today.\n\nOur engineers are checking our substation equipment to ensure our network is healthy before they attempt to restore your power. They may also walk our cabling route throughout the area to check for any visible problems, check smaller electrical sites in the area, or apply specialist equipment which may restore power temporarily to help them with their testing.\n\nWe know that our customers may be worried about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 4 hours in the fridge, and between 24-48 hours in the freezer if you avoid opening them.\n\nWe'll keep you updated on our engineers progress.",
+        "Name": "Customer Service Team",
+        "Operator": "Stuart Donovan",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
+        "Active": true,
         "Date": "2026-02-23T08:01:30.267",
         "Message": "Our engineers have arrived on site in the Hastingwood Road area, the estimated time of 10:30-11:30 hasn't changed.\n\nWe know that a power cut can be very disruptive; we understand this can greatly impact your daily activities and we want to support you however we can.\n\nWe'll update you with all of our progress, but if you need to speak to us, call our team on 08003163105 any time. If you would like more information about what we think the fault is; here's a short YouTube video <a href=\"https://UKPN.short.gy/fuse.\" target=\"_blank\">https://UKPN.short.gy/fuse.</a> Sent by Donny at 08:01.",
         "Name": "Customer Service Team",
@@ -11276,7 +11285,8 @@
       "CM179JR",
       "CM179JW",
       "CM179JT",
-      "CM179JP"
+      "CM179JP",
+      "CM179GD"
     ],
     "IncidentCategoryCustomerFriendlyDescription": "A fault has occurred on a piece of our electrical equipment which controls the power to your home.",
     "StormIncidentCategoryCustomerFriendlyDescription": null,
@@ -11298,8 +11308,16 @@
     "ReceivedDate": "2026-02-23T04:34:13",
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 4,
+    "NoCallsReported": 5,
     "Logs": [
+      {
+        "ActualEventTime": "2026-02-23T08:16:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Sent by Donny at 08:16 - Thanks for bearing with us today.\n\nOur engineers are checking our substation equipment to ensure our network is healthy before they attempt to restore your power. They may also walk our cabling route throughout the area to check for any visible problems, check smaller electrical sites in the area, or apply specialist equipment which may restore power temporarily to help them with their testing.\n\nWe know that our customers may be worried about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 4 hours in the fridge, and between 24-48 hours in the freezer if you avoid opening them.\n\nWe'll keep you updated on our engineers progress.",
+        "LoggedTime": "2026-02-23T08:16:11.387",
+        "Operator": "Stuart Donovan"
+      },
       {
         "ActualEventTime": "2026-02-23T08:01:00",
         "CategoryId": 263,
@@ -11321,7 +11339,8 @@
       "CM179JR",
       "CM179JW",
       "CM179JT",
-      "CM179JP"
+      "CM179JP",
+      "CM179GD"
     ],
     "PostCodesPlanned": [
       "CM179JN",
@@ -11332,7 +11351,8 @@
       "CM179JR",
       "CM179JW",
       "CM179JT",
-      "CM179JP"
+      "CM179JP",
+      "CM179GD"
     ],
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
@@ -12124,7 +12144,7 @@
         "StepType": 0
       },
       {
-        "Active": true,
+        "Active": false,
         "Date": "2026-02-23T07:28:07",
         "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they\u2019ll work as quickly as is safely possible to get your power back on.</p>",
         "Name": "Engineers on their way",
@@ -12133,12 +12153,12 @@
         "StepType": 0
       },
       {
-        "Active": false,
-        "Date": null,
-        "Message": null,
+        "Active": true,
+        "Date": "2026-02-23T08:22:12",
+        "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
         "Name": "Investigating & fixing",
         "Operator": null,
-        "DisplayTime": "",
+        "DisplayTime": "8:22 am",
         "StepType": 0
       },
       {
@@ -12251,11 +12271,11 @@
       },
       {
         "Active": false,
-        "Date": null,
+        "Date": "2026-02-23T08:15:16",
         "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
         "Name": "Investigating & fixing",
         "Operator": null,
-        "DisplayTime": "",
+        "DisplayTime": "8:15 am",
         "StepType": 0
       },
       {
@@ -12322,7 +12342,7 @@
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Message": "",
-    "MainMessage": "We are currently experiencing problems with the electricity supply in your area.  We are arranging to have engineers investigate the fault.  We are sorry we can't give you a time for the restoration of supply at present. Please accept our sincere apologies for any inconvenience this may cause.",
+    "MainMessage": "We are aware of an incident caused by LV Proactive Repair Non Recloser affecting the electricity supply in your area. Our engineers are dealing with this, but we are sorry we can't give you a time for the restoration of supply at present.  Please accept our sincere apologies for any inconvenience this may cause.",
     "PostcodeData": [],
     "Postcode": "",
     "Coordinates": null
@@ -12570,7 +12590,7 @@
       "INCD-24464-O",
       "INCD-106768-C"
     ],
-    "IncidentReference": "MULT-446e0007-b633-4a25-8b64-a3f407887ddb",
+    "IncidentReference": "MULT-1abdd00a-8f4c-4fd4-aedc-f9c0d4b0edc9",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -12630,7 +12650,7 @@
       "INCD-24544-O",
       "INCD-24545-O"
     ],
-    "IncidentReference": "MULT-87d68e11-0760-47b4-9db2-37d00ae6fc3b",
+    "IncidentReference": "MULT-7f752825-f6ad-4aa3-bca4-fded72929061",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -12692,7 +12712,7 @@
       "INCD-75050-N"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-05e1fcbe-e25a-430f-8ad0-6293981c152c",
+    "IncidentReference": "MULT-858f3dac-6ac1-4bde-b616-6283ed80a4b3",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -12753,7 +12773,7 @@
       "INCD-587003-Z"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-e4f42f38-77b7-44a6-807e-c65d564fccd1",
+    "IncidentReference": "MULT-c5a26a50-b544-4388-a0e9-daf2e99f68c5",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -12814,7 +12834,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-69467b4d-79d3-4df9-adb7-31dd0e8835c6",
+    "IncidentReference": "MULT-3fd22de3-e2a2-422c-83f8-6ed667fbaa57",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -12877,7 +12897,7 @@
       "INCD-586995-Z"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-0707123c-b2bf-4b07-abfe-25694e5b17f8",
+    "IncidentReference": "MULT-a6097c21-43a4-4297-a802-cf9dc4b9b2fd",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -12938,7 +12958,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-241ffd85-ac29-4b1c-be84-77c850bfe39d",
+    "IncidentReference": "MULT-60a45b95-e39a-45ef-ae7e-cc0479f0fd6c",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
