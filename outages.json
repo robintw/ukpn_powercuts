@@ -875,7 +875,7 @@
     "IncidentCategory": "47",
     "IncidentTypeName": "Restored",
     "IncidentType": 2,
-    "IncidentPriority": 30,
+    "IncidentPriority": 500,
     "IncidentDno": 1,
     "StatusId": 5,
     "CreationDateTime": "2026-02-27T11:32:16",
@@ -908,7 +908,7 @@
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Message": "",
-    "MainMessage": "We are aware of an incident caused by LV UG Network Fault affecting the electricity supply in your area. Our engineers are dealing with this, but we are sorry we can't give you a time for the restoration of supply at present.  Please accept our sincere apologies for any inconvenience this may cause.",
+    "MainMessage": "We have repaired the problem with the electricity supply in your area. There may still be some tidying up to do, and any details have been passed to our Maintenance department, who will attend to it as soon as possible. Please accept our sincere apologies for any inconvenience this may cause. ",
     "PostcodeData": [],
     "Postcode": "",
     "Coordinates": null
@@ -2575,7 +2575,7 @@
     "ReceivedDate": "2026-02-27T23:09:00",
     "NoCustomerAffected": 2,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 0,
+    "NoCallsReported": 1,
     "Logs": [],
     "PostCodesAffected": [
       "HA0 2",
@@ -2999,7 +2999,7 @@
         "StepType": 0
       },
       {
-        "Active": true,
+        "Active": false,
         "Date": "2026-02-28T01:02:21",
         "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
         "Name": "Investigating & fixing",
@@ -3008,30 +3008,22 @@
         "StepType": 0
       },
       {
-        "Active": false,
-        "Date": null,
-        "Message": null,
+        "Active": true,
+        "Date": "2026-02-28T06:39:19.247",
+        "Message": "<p>All power in the area should be back on. We\u2019re really sorry for any disruption this caused.</p>",
         "Name": "Power back on",
         "Operator": null,
-        "DisplayTime": "",
+        "DisplayTime": "6:39 am",
         "StepType": 0
       }
     ],
-    "PowerCutType": "Unplanned",
+    "PowerCutType": "Restored",
     "PostcodesRemaining": [
       "CM22 6",
       "CM6 1",
       "CM6 4"
     ],
     "PostcodeGeometryData": [
-      {
-        "Center": {
-          "lat": 51.82085,
-          "lng": 0.31454
-        },
-        "Coordinates": [],
-        "Postcode": "CM6 1"
-      },
       {
         "Center": {
           "lat": 51.89807,
@@ -3047,43 +3039,51 @@
         },
         "Coordinates": [],
         "Postcode": "CM6 4"
+      },
+      {
+        "Center": {
+          "lat": 51.82085,
+          "lng": 0.31454
+        },
+        "Coordinates": [],
+        "Postcode": "CM6 1"
       }
     ],
     "FullPostcodeData": [
-      "CM61TA",
       "CM226SN",
       "CM226SW",
       "CM226SP",
       "CM226SL",
-      "CM61FY",
       "CM226FG",
       "CM226FN",
-      "CM61DD",
-      "CM61AR",
       "CM64AH",
-      "CM64AJ"
+      "CM61DD",
+      "CM64AJ",
+      "CM61AR",
+      "CM61TA",
+      "CM61FY"
     ],
-    "IncidentCategoryCustomerFriendlyDescription": "We're investigating an overhead electricity line that has been damaged in the local area.",
+    "IncidentCategoryCustomerFriendlyDescription": "We were investigating an overhead electricity line that has been damaged in the local area.",
     "StormIncidentCategoryCustomerFriendlyDescription": null,
     "IncidentTypeTBCEstimatedFriendlyDescription": "28 Feb 07:00 - 08:00",
     "StormIncidentTypeTBCEstimatedFriendlyDescription": null,
     "Scope": null,
     "IncidentId": "Z0008f903INCD",
     "IncidentCategory": "9",
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "IncidentType": 2,
-    "IncidentPriority": 2,
+    "IncidentPriority": 10,
     "IncidentDno": 1,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2026-02-27T23:26:59",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2026-02-28T06:39:19.247",
     "EstimatedRestorationDate": "2026-02-28T07:30:00",
     "PlannedDate": null,
-    "PlannedDayMonth": null,
+    "PlannedDayMonth": "",
     "ReceivedDate": "2026-02-28T05:17:00",
-    "NoCustomerAffected": 70,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
-    "NoCallsReported": 33,
+    "NoCallsReported": 34,
     "Logs": [],
     "PostCodesAffected": [
       "CM22 6",
@@ -3091,32 +3091,32 @@
       "CM6 4"
     ],
     "PostCodesRestored": [
-      "CM61TA",
       "CM226SN",
       "CM226SW",
       "CM226SP",
       "CM226SL",
-      "CM61FY",
       "CM226FG",
       "CM226FN",
-      "CM61DD",
-      "CM61AR",
       "CM64AH",
-      "CM64AJ"
+      "CM61DD",
+      "CM64AJ",
+      "CM61AR",
+      "CM61TA",
+      "CM61FY"
     ],
     "PostCodesPlanned": [
-      "CM61TA",
       "CM226SN",
       "CM226SW",
       "CM226SP",
       "CM226SL",
-      "CM61FY",
       "CM226FG",
       "CM226FN",
-      "CM61DD",
-      "CM61AR",
       "CM64AH",
-      "CM64AJ"
+      "CM61DD",
+      "CM64AJ",
+      "CM61AR",
+      "CM61TA",
+      "CM61FY"
     ],
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
@@ -4307,7 +4307,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-9365659a-848b-421e-ba70-13011d6094e9",
+    "IncidentReference": "MULT-209ad4b4-c042-437f-8e56-9505e35e8983",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
