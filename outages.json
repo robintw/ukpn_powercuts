@@ -453,7 +453,7 @@
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Message": "",
-    "MainMessage": "We are currently experiencing problems with the electricity supply in your area.  We are arranging to have engineers investigate the fault.  We are sorry we can't give you a time for the restoration of supply at present. Please accept our sincere apologies for any inconvenience this may cause.",
+    "MainMessage": "We are aware of an incident caused by LV Flickering Supply affecting the electricity supply in your area. Our engineers are dealing with this, but we are sorry we can't give you a time for the restoration of supply at present.  Please accept our sincere apologies for any inconvenience this may cause.",
     "PostcodeData": [],
     "Postcode": "",
     "Coordinates": null
@@ -6932,7 +6932,7 @@
     "PanelContentUrl": null,
     "Steps": [
       {
-        "Active": true,
+        "Active": false,
         "Date": "2026-03-21T15:45:00",
         "Message": "<p>We became aware of a power cut at 15:45. We\u2019re sorry for any disruption this may have caused you. We didn\u2019t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly.</p>",
         "Name": "Reported",
@@ -6943,7 +6943,7 @@
       {
         "Active": false,
         "Date": null,
-        "Message": null,
+        "Message": "<p>We have engineers on their way. As this is affecting your area, they will not need to attend your property. Rest assured once they arrive, they\u2019ll work as quickly as is safely possible to get your power back on.</p>",
         "Name": "Engineers on their way",
         "Operator": null,
         "DisplayTime": "",
@@ -6952,55 +6952,55 @@
       {
         "Active": false,
         "Date": null,
-        "Message": null,
+        "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
         "Name": "Investigating & fixing",
         "Operator": null,
         "DisplayTime": "",
         "StepType": 0
       },
       {
-        "Active": false,
-        "Date": null,
-        "Message": null,
+        "Active": true,
+        "Date": "2026-03-21T16:39:32.143",
+        "Message": "<p>All power in the area should be back on. We\u2019re really sorry for any disruption this caused.</p>",
         "Name": "Power back on",
         "Operator": null,
-        "DisplayTime": "",
+        "DisplayTime": "4:39 pm",
         "StepType": 0
       }
     ],
-    "PowerCutType": "Unplanned",
+    "PowerCutType": "Restored",
     "PostcodesRemaining": [
       "AL6 9"
     ],
     "PostcodeGeometryData": [],
     "FullPostcodeData": [
-      "AL69PG",
-      "AL69FL",
       "AL69EA",
       "AL69HB",
       "AL69PA",
+      "AL69PG",
       "AL69PB",
-      "AL69ED"
+      "AL69ED",
+      "AL69FL"
     ],
-    "IncidentCategoryCustomerFriendlyDescription": "We've had to turn off power in your area so our engineers can safely carry out emergency repairs to the network.",
+    "IncidentCategoryCustomerFriendlyDescription": "We had to turn off power in your area so our engineers could safely carry out emergency repairs to the network.",
     "StormIncidentCategoryCustomerFriendlyDescription": null,
     "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
     "StormIncidentTypeTBCEstimatedFriendlyDescription": null,
     "Scope": null,
     "IncidentId": "Z00090c49INCD",
     "IncidentCategory": "24",
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "IncidentType": 2,
-    "IncidentPriority": 2,
+    "IncidentPriority": 30,
     "IncidentDno": 1,
-    "StatusId": 0,
+    "StatusId": 5,
     "CreationDateTime": "2026-03-21T15:25:34",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2026-03-21T16:39:32.143",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "PlannedDayMonth": null,
     "ReceivedDate": "2026-03-21T15:45:00",
-    "NoCustomerAffected": 3,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCallsReported": 0,
     "Logs": [],
@@ -7008,27 +7008,27 @@
       "AL6 9"
     ],
     "PostCodesRestored": [
-      "AL69PG",
-      "AL69FL",
       "AL69EA",
       "AL69HB",
       "AL69PA",
+      "AL69PG",
       "AL69PB",
-      "AL69ED"
+      "AL69ED",
+      "AL69FL"
     ],
     "PostCodesPlanned": [
-      "AL69PG",
-      "AL69FL",
       "AL69EA",
       "AL69HB",
       "AL69PA",
+      "AL69PG",
       "AL69PB",
-      "AL69ED"
+      "AL69ED",
+      "AL69FL"
     ],
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Message": "",
-    "MainMessage": "We are currently experiencing problems with the electricity supply in your area.  We are arranging to have engineers investigate the fault.  We are sorry we can't give you a time for the restoration of supply at present. Please accept our sincere apologies for any inconvenience this may cause.",
+    "MainMessage": "We have repaired the problem with the electricity supply in your area. There may still be some tidying up to do, and any details have been passed to our Maintenance department, who will attend to it as soon as possible. Please accept our sincere apologies for any inconvenience this may cause. ",
     "PostcodeData": [],
     "Postcode": "",
     "Coordinates": null
@@ -7359,7 +7359,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-4a20de73-077c-42cc-be68-2cab37892ebc",
+    "IncidentReference": "MULT-9e3c7f89-34b0-4973-aa8e-da47a5429eb8",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -7414,13 +7414,12 @@
   {
     "IncidentsCount": 2,
     "RestoredIncidents": [
-      "INCD-592905-Z"
-    ],
-    "UnplannedIncidents": [
+      "INCD-592905-Z",
       "INCD-592969-Z"
     ],
+    "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-62eef9fa-fe35-4028-b314-4da7b23c3f22",
+    "IncidentReference": "MULT-654f4ee5-334b-4849-b33a-efef002ff24c",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
@@ -7482,7 +7481,7 @@
     ],
     "UnplannedIncidents": [],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-62e2b685-fed8-4c15-8aac-21e682672ccd",
+    "IncidentReference": "MULT-7db20eba-6dad-4f3e-b0d4-9d95f716daa9",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
