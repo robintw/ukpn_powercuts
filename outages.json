@@ -424,7 +424,7 @@
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
     "Message": "",
-    "MainMessage": "We are aware of an incident caused by LV UG Network Fault affecting the electricity supply in your area. Our engineers are dealing with this, but we are sorry we can't give you a time for the restoration of supply at present.  Please accept our sincere apologies for any inconvenience this may cause.",
+    "MainMessage": "We are currently experiencing problems with the electricity supply in your area.  Our engineers have attended the fault, and have made an emergency repair to restore power to as many premises as possible.  It is our intention to return to make a permanent repair as soon as we can.  I'm sorry, but we can't give you a time for this at present. Please accept our sincere apologies for any inconvenience this may cause.",
     "PostcodeData": [],
     "Postcode": "",
     "Coordinates": null
@@ -627,7 +627,7 @@
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCustomersPredicted": 0,
-    "NoCallsReported": 5,
+    "NoCallsReported": 6,
     "Logs": [],
     "PostCodesAffected": [
       "CO14 8"
@@ -3346,6 +3346,24 @@
         "StepType": 1
       },
       {
+        "Active": true,
+        "Date": "2026-04-19T09:15:18.743",
+        "Message": "Sent by Theo at 09:15 - Thanks for your patience today.\n\nOur engineers have let us know that investigations into the power cut are taking longer than anticipated, and the estimated time frame to restore your power is now between 11:30 and 12:30.\n\nWe're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
+        "Name": "Customer Service Team",
+        "Operator": "Theo Driver",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
+        "Active": true,
+        "Date": "2026-04-19T08:32:47.093",
+        "Message": "Sent by Theo at 08:32 - Our engineers have requested a specialist team to check our overhead equipment to try and restore power. There's no change to the estimated time frame of 08:30-09:30 currently.\n\nIf you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
+        "Name": "Customer Service Team",
+        "Operator": "Theo Driver",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
         "Active": false,
         "Date": "2026-04-19T04:47:00",
         "Message": "<p>We became aware of a power cut at 04:47. We\u2019re sorry for any disruption this may have caused you. We didn\u2019t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly.</p>",
@@ -3425,6 +3443,22 @@
         "TypeId": 0,
         "Comment": "Sent by Theo at 10:17 - I'm pleased to confirm that all power in the Chase area should be back on. The issue was caused by a faulty piece of equipment on our overhead network which our engineers have replaced.\n\nWe know that a power cut can be difficult, and I'm sorry for the length of the time you were without your electricity. Please rest assured that our staff will continue to work around the clock to keep the lights on.\n\nIf your power isn't on or there's anything you'd like to talk to us about, call us on 08003163105 which is free from landlines and mobiles.",
         "LoggedTime": "2026-04-19T10:18:22.24",
+        "Operator": "Theo Driver"
+      },
+      {
+        "ActualEventTime": "2026-04-19T09:15:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Sent by Theo at 09:15 - Thanks for your patience today.\n\nOur engineers have let us know that investigations into the power cut are taking longer than anticipated, and the estimated time frame to restore your power is now between 11:30 and 12:30.\n\nWe're sorry this is taking longer than expected, and we'll continue to keep you up to date, but if any change to this time comes in from our staff I'll let you know as soon as we hear.",
+        "LoggedTime": "2026-04-19T09:15:18.743",
+        "Operator": "Theo Driver"
+      },
+      {
+        "ActualEventTime": "2026-04-19T08:32:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Sent by Theo at 08:32 - Our engineers have requested a specialist team to check our overhead equipment to try and restore power. There's no change to the estimated time frame of 08:30-09:30 currently.\n\nIf you have a vulnerable person at home, please call us on 08003163105 and we'll see if we can provide any additional support.",
+        "LoggedTime": "2026-04-19T08:32:47.093",
         "Operator": "Theo Driver"
       }
     ],
@@ -5384,6 +5418,15 @@
     "PanelContentUrl": null,
     "Steps": [
       {
+        "Active": true,
+        "Date": "2026-04-19T12:03:47.563",
+        "Message": "We're sorry your power has gone off again.\n\nWe believe there may be an underlying issue causing the recent power cuts, but due to the nature of the electricity network, the heat created by a developing fault can cause a break in a cable to reseal itself. This can make it difficult to locate, so while our engineers are testing our equipment thoroughly to pinpoint the issue, this kind of problem may interrupt power multiple times before it's possible for us to fix.\n\nWe know that our customers may be worried about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 4 hours in the fridge, and between 24-48 hours in the freezer if you avoid opening them.\n\nI'll keep you updated. Sent by Theo at 12:03",
+        "Name": "Customer Service Team",
+        "Operator": "Theo Driver",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
         "Active": false,
         "Date": "2026-04-19T10:24:05",
         "Message": "<p>We became aware of a power cut at 10:24. We\u2019re sorry for any disruption this may have caused you. We didn\u2019t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly.</p>",
@@ -5467,7 +5510,16 @@
     "NoPlannedCustomers": 0,
     "NoCustomersPredicted": 111,
     "NoCallsReported": 19,
-    "Logs": [],
+    "Logs": [
+      {
+        "ActualEventTime": "2026-04-19T12:03:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "We're sorry your power has gone off again.\n\nWe believe there may be an underlying issue causing the recent power cuts, but due to the nature of the electricity network, the heat created by a developing fault can cause a break in a cable to reseal itself. This can make it difficult to locate, so while our engineers are testing our equipment thoroughly to pinpoint the issue, this kind of problem may interrupt power multiple times before it's possible for us to fix.\n\nWe know that our customers may be worried about the food in the fridge and freezer, so we want to try and help with advice. Food should keep for up to 4 hours in the fridge, and between 24-48 hours in the freezer if you avoid opening them.\n\nI'll keep you updated. Sent by Theo at 12:03",
+        "LoggedTime": "2026-04-19T12:03:47.563",
+        "Operator": "Theo Driver"
+      }
+    ],
     "PostCodesAffected": [
       "CM23 3"
     ],
@@ -5579,7 +5631,7 @@
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCustomersPredicted": 0,
-    "NoCallsReported": 2,
+    "NoCallsReported": 3,
     "Logs": [],
     "PostCodesAffected": [
       "SS7 3"
@@ -5838,7 +5890,7 @@
       "INCD-20109-I"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-15e3b634-fe64-4ab6-b33e-76e174512f1b",
+    "IncidentReference": "MULT-c3b9dd34-5e79-4826-a58d-53c50da6548e",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
