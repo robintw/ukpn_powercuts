@@ -564,7 +564,7 @@
         "StepType": 0
       },
       {
-        "Active": true,
+        "Active": false,
         "Date": "2026-04-26T07:52:48",
         "Message": "<p>Engineers are now on site, carrying out investigations into the fault. Once they have completed their assessment, they will carry out repairs.</p>",
         "Name": "Investigating & fixing",
@@ -573,16 +573,16 @@
         "StepType": 0
       },
       {
-        "Active": false,
-        "Date": null,
-        "Message": null,
+        "Active": true,
+        "Date": "2026-04-26T17:10:32.55",
+        "Message": "<p>All power in the area should be back on. We\u2019re really sorry for any disruption this caused.</p>",
         "Name": "Power back on",
         "Operator": null,
-        "DisplayTime": "",
+        "DisplayTime": "5:10 pm",
         "StepType": 0
       }
     ],
-    "PowerCutType": "Unplanned",
+    "PowerCutType": "Restored",
     "PostcodesRemaining": [
       "W1T 3"
     ],
@@ -597,33 +597,33 @@
       }
     ],
     "FullPostcodeData": [
-      "W1T3EJ",
-      "W1T3AJ",
       "W1T3AN",
       "W1T3ER",
+      "W1T3EJ",
       "W1T3AW",
       "W1T3LP",
-      "W1T3EP"
+      "W1T3EP",
+      "W1T3AJ"
     ],
-    "IncidentCategoryCustomerFriendlyDescription": "A fault has occurred on an underground electricity cable affecting the local area, we may have to dig up the road to carry out repairs.",
+    "IncidentCategoryCustomerFriendlyDescription": "A fault occurred on an underground electricity cable affecting the local area.",
     "StormIncidentCategoryCustomerFriendlyDescription": null,
     "IncidentTypeTBCEstimatedFriendlyDescription": "To be confirmed",
     "StormIncidentTypeTBCEstimatedFriendlyDescription": null,
     "Scope": null,
     "IncidentId": "J0006338cINCD",
     "IncidentCategory": "47",
-    "IncidentTypeName": "Unplanned",
+    "IncidentTypeName": "Restored",
     "IncidentType": 2,
-    "IncidentPriority": 2,
+    "IncidentPriority": 10,
     "IncidentDno": 2,
-    "StatusId": 1,
+    "StatusId": 5,
     "CreationDateTime": "2026-04-24T10:48:22",
-    "RestoredDateTime": null,
+    "RestoredDateTime": "2026-04-26T17:10:32.55",
     "EstimatedRestorationDate": null,
     "PlannedDate": null,
     "PlannedDayMonth": null,
     "ReceivedDate": "2026-04-24T10:54:00",
-    "NoCustomerAffected": 1,
+    "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCustomersPredicted": 0,
     "NoCallsReported": 2,
@@ -632,22 +632,22 @@
       "W1T 3"
     ],
     "PostCodesRestored": [
-      "W1T3EJ",
-      "W1T3AJ",
       "W1T3AN",
       "W1T3ER",
+      "W1T3EJ",
       "W1T3AW",
       "W1T3LP",
-      "W1T3EP"
+      "W1T3EP",
+      "W1T3AJ"
     ],
     "PostCodesPlanned": [
-      "W1T3EJ",
-      "W1T3AJ",
       "W1T3AN",
       "W1T3ER",
+      "W1T3EJ",
       "W1T3AW",
       "W1T3LP",
-      "W1T3EP"
+      "W1T3EP",
+      "W1T3AJ"
     ],
     "Timestamp": "0001-01-01T00:00:00",
     "PlannedIncidentReason": "We're carrying out planned work in your area. For our engineers to carry it out safely they need to turn the power off. We're doing this work as it's essential to provide reliable electricity supplies to your area. We're sorry for any inconvenience caused and thank you for your patience.",
@@ -806,6 +806,15 @@
         "StepType": 1
       },
       {
+        "Active": true,
+        "Date": "2026-04-26T14:26:30.027",
+        "Message": "This is a message from UK Power Networks at [TIME]\n\nThere's been an issue on our electricity network in [postcode], so in the interest of public safety, we've had to switch off power to 38 properties as a precaution.\n\nOur apologies, but this was an emergency so we couldn't give you prior notice.\n\nIf your power is still on, you're not affected. If your power is off, you can get live updates here:\n<a href=\"http://www.ukpowernetworks.co.uk/power-cut\" target=\"_blank\">http://www.ukpowernetworks.co.uk/power-cut</a>",
+        "Name": "Customer Service Team",
+        "Operator": "Kevin Parker",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
         "Active": false,
         "Date": "2026-04-26T14:09:00",
         "Message": "<p>We became aware of this power cut at 14:09. We\u2019re sorry for any disruption this may have caused you. We didn\u2019t know in advance there would be a power cut, but now that we know, our teams will do everything they can to get your power back quickly. Engineers in our control room have switched some customers power back on in your area. To get everyone\u2019s power back on we may need to attend to investigate and make repairs. We\u2019ll continue to update you until everyone\u2019s power is back on.</p>",
@@ -910,6 +919,14 @@
         "TypeId": 0,
         "Comment": "Sent by Kevin at 15:13 - We're very sorry we've had to switch off your electricity.\n\nOur engineers have turned off the power in the Halesworth IP19  area for safety so they can repair a fault on our overhead network. Our estimated time to have your power back on is between 16:30 and 17:30, however, this may need to change later depending on how our works progress.\n\nIf you'd like more information about why we sometimes have to switch power off to work; here's a short video https://UKPN.short.gy/Isol. We'll keep you updated with progress.",
         "LoggedTime": "2026-04-26T15:14:56.097",
+        "Operator": "Kevin Parker"
+      },
+      {
+        "ActualEventTime": "2026-04-26T14:26:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "This is a message from UK Power Networks at [TIME]\n\nThere's been an issue on our electricity network in [postcode], so in the interest of public safety, we've had to switch off power to 38 properties as a precaution.\n\nOur apologies, but this was an emergency so we couldn't give you prior notice.\n\nIf your power is still on, you're not affected. If your power is off, you can get live updates here:\nhttp://www.ukpowernetworks.co.uk/power-cut",
+        "LoggedTime": "2026-04-26T14:26:30.027",
         "Operator": "Kevin Parker"
       }
     ],
@@ -1565,7 +1582,7 @@
     "NoCustomerAffected": 1,
     "NoPlannedCustomers": 0,
     "NoCustomersPredicted": 17,
-    "NoCallsReported": 1,
+    "NoCallsReported": 2,
     "Logs": [],
     "PostCodesAffected": [
       "WD25 8"
@@ -2120,15 +2137,6 @@
         "StepType": 1
       },
       {
-        "Active": true,
-        "Date": "2026-04-26T15:16:17.763",
-        "Message": "Sent by Kevin at 15:16 -\n\nWe're sorry for the disruption to your power today, especially for those who may be more vulnerable without the electric. If you're worried about an elderly or ill person in your property who is affected by the power cut today, we are able to provide some support. For more information just click here: <a href=\"https://UKPN.short.gy/PSR\" target=\"_blank\">https://UKPN.short.gy/PSR</a>\n \nIf you have any further concerns or questions though, don't hesitate to call us free on 08003163105. We'll continue to keep you updated with our engineer's progress.",
-        "Name": "Customer Service Team",
-        "Operator": "Kevin Parker",
-        "DisplayTime": "",
-        "StepType": 1
-      },
-      {
         "Active": false,
         "Date": "2026-04-26T07:56:00",
         "Message": "<p>We became aware of a power cut at 07:56. We\u2019re sorry for any disruption this may have caused you. We didn\u2019t know in advance there would be a power cut but now that we know, our teams will do everything they can to get your power back quickly.</p>",
@@ -2225,14 +2233,6 @@
         "TypeId": 0,
         "Comment": "Thanks for bearing with us during the power cut today, our staff will work to restore your power as quickly and as safely as possible.\n\nA lot of our customers have questions regarding power cuts, and though you can always reach our team, you can also find some helpful information and answers to some of our most frequently asked questions on our website here - https://UKPN.short.gy/FAQ - Bear in mind this will use your mobile data, so feel free to speak to us if you'd prefer.\n\nWe'll be in touch again once we have more information from our staff.",
         "LoggedTime": "2026-04-26T16:09:31.503",
-        "Operator": "Kevin Parker"
-      },
-      {
-        "ActualEventTime": "2026-04-26T15:16:00",
-        "CategoryId": 263,
-        "TypeId": 0,
-        "Comment": "Sent by Kevin at 15:16 -\n\nWe're sorry for the disruption to your power today, especially for those who may be more vulnerable without the electric. If you're worried about an elderly or ill person in your property who is affected by the power cut today, we are able to provide some support. For more information just click here: https://UKPN.short.gy/PSR\n \nIf you have any further concerns or questions though, don't hesitate to call us free on 08003163105. We'll continue to keep you updated with our engineer's progress.",
-        "LoggedTime": "2026-04-26T15:16:17.763",
         "Operator": "Kevin Parker"
       }
     ],
@@ -2980,7 +2980,7 @@
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCustomersPredicted": 0,
-    "NoCallsReported": 78,
+    "NoCallsReported": 79,
     "Logs": [
       {
         "ActualEventTime": "2026-04-26T11:43:00",
@@ -4486,6 +4486,15 @@
     "Steps": [
       {
         "Active": true,
+        "Date": "2026-04-26T17:18:16.907",
+        "Message": "Hi, it's David from the messaging team at UK Power Networks. I understand how difficult it can be without power and the additional worries this can bring.\n\nFor both our business customers and those at home, we will work as quickly and safely as possible to restore supplies. If you need any additional support or have any concerns, please call us on 105.\n\nI will personally continue to keep you updated with our progress.",
+        "Name": "Customer Service Team",
+        "Operator": "Dave Sergeant",
+        "DisplayTime": "",
+        "StepType": 1
+      },
+      {
+        "Active": true,
         "Date": "2026-04-26T16:25:17.45",
         "Message": "Hi David here again. Our engineers have just called in to advise us they are still having issues locating the damaged electrical cable caused by another company in the Church Lane area. Which is hindering us being able to repair the cable and restore your power.\n\nUnfortunately, it's going to take us past our current time frame to complete this safely, so we're now working towards between 23:00 and 00:00 to have power back on.\n\nWe can appreciate how frustrating and disruptive being without power can be, and our staff are working as fast as they can. If you have any questions or concerns, please feel free to speak to our team, but I'll let you know further news as it comes in from site. Sent by David at 16:24.",
         "Name": "Customer Service Team",
@@ -4585,6 +4594,14 @@
     "NoCustomersPredicted": 0,
     "NoCallsReported": 23,
     "Logs": [
+      {
+        "ActualEventTime": "2026-04-26T17:18:00",
+        "CategoryId": 263,
+        "TypeId": 0,
+        "Comment": "Hi, it's David from the messaging team at UK Power Networks. I understand how difficult it can be without power and the additional worries this can bring.\n\nFor both our business customers and those at home, we will work as quickly and safely as possible to restore supplies. If you need any additional support or have any concerns, please call us on 105.\n\nI will personally continue to keep you updated with our progress.",
+        "LoggedTime": "2026-04-26T17:18:16.907",
+        "Operator": "Dave Sergeant"
+      },
       {
         "ActualEventTime": "2026-04-26T16:25:00",
         "CategoryId": 263,
@@ -6126,7 +6143,7 @@
     "NoCustomerAffected": 232,
     "NoPlannedCustomers": 0,
     "NoCustomersPredicted": 0,
-    "NoCallsReported": 64,
+    "NoCallsReported": 65,
     "Logs": [
       {
         "ActualEventTime": "2026-04-26T16:30:00",
@@ -6441,7 +6458,7 @@
     "NoCustomerAffected": 0,
     "NoPlannedCustomers": 0,
     "NoCustomersPredicted": 0,
-    "NoCallsReported": 6,
+    "NoCallsReported": 8,
     "Logs": [],
     "PostCodesAffected": [
       "CT5 4"
@@ -6471,7 +6488,7 @@
       "INCD-599763-Z"
     ],
     "PlannedIncidents": [],
-    "IncidentReference": "MULT-5fa459d9-c7c7-4763-a056-2ce457f4174c",
+    "IncidentReference": "MULT-78d2ed5d-fde3-4400-8b96-4f09cb8d1c62",
     "IncidentDescription": null,
     "PanelContentUrl": null,
     "Steps": [],
